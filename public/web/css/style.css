@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Satoshi-Variable;
+    
+}
+
+
+
+
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+         url('../fonts/Satoshi-Variable.woff') format('woff'),
+         url('../fonts/Satoshi-Variable.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  a,li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  @font-face {
+    font-family: 'GeneralSans-Variable';
+    src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Variable.woff') format('woff'),
+         url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  .head {
+    width: 100%;
+    padding: 12px;
+   
+  }
+ 
+
+  nav{
+    padding: 12px 8px;
+   display: flex;
+   justify-content: space-between;
+
+   align-items: center;
+  }
+
+  .link, 
+  .fre , 
+  .location,
+  .contact, .toglle{
+    display: flex;
+    align-items: center;
+  }
+
+  .link li a{
+    font-size: 20px ;
+    font-weight: 700;
+    transition: all ease-in 0.5s;
+    margin: 5px 5px;
+   color: blue;
+
+
+  }
+
+  .link li a:hover{
+    color: #000;
+
+  }
+.fre  {
+    padding-right: 12px;
+}
+  .fre 
+  .location h4,
+  .contact a, .toglle{
+    margin: 5px 5px ;
+  }
+
+  .contact a{
+    font-size: 20px ;
+    font-weight: 700;
+    color: blue;
+
+  }
+
+  .location {
+    color: blue;
+    
+  }
+
+  .cont{
+    background: #3afa00;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  .cont:hover{
+    box-shadow: 4px 1px 4px 1px #0000000d;
+    z-index: 1;
+  }
+
+
+  .skill, .design-tool{
+    color: blue;
+
+    font-weight: bolder;
+    width: 100%;
+   
+  }
+
+
+  .grafic, .backend, .frontend{
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    text-decoration: underline;
+  }
+
+.section-grid{
+  margin-top: 2rem;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  width: 100%;
+}
+
+.first-grid{
+  text-align: justify;
+  width: 70%;
+  
+}
+
+.first-grid h4 {
+  font-size: 4.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.first-grid p {
+  font-size: 1.5rem;
+
+  margin-bottom: 2px;
+}
+
+.button a {
+  background-color:blue;
+  padding: 8px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
+  border-radius: 15px;
+
+}
